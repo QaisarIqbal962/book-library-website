@@ -1,15 +1,16 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
 
-import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1>test</h1>
-      <h1></h1>
-    </>
+
+    <div className="min-h-screen bg-gray-900">
+      <Navbar/>
+    </div>
+
   );
 }
 
